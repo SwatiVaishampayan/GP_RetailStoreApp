@@ -1,0 +1,21 @@
+#input-search-store{
+	width: 70%;
+}
+#display-list-stores{
+	min-height: 500px;
+	height: auto;
+}
+#form-newstore{
+	min-height: 300px;
+	height: auto;
+	padding-bottom: 30px;
+}
+.cells-store-details{
+	padding: 10px;
+}
+.instruction {
+	margin-bottom: 20px;
+}
+.input-cells-store-details{
+	width: 100%
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<head>
+<title>my_Store</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="css\index.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+
+
+</head>
+
+<body>
+<div class="container">
+<div class="row">
+<div class="col-sm-12" style="text-align: center"><h1>Retail Store</h1></div>
+</div>
+<div class="row" style="display:inline">
+<ul class="nav nav-pills">
+  <li role="presentation"><a href="index.html">Home</a></li>
+  <li role="presentation" class="active"><a href="#">Add your store</a></li>
+</ul>
+</div>
+<div class="row">
+<div class="col-sm-7">
+<div class="jumbotron" id="form-newstore" style="text-align: center">
+<div class="row" style="text-align: center"><h2>Enter store details here</h2></div>
+<div class="row" style=" display:inline">
+
+<div style=" display:inline-block; text-align:center" >
+<form id="form-store-details" >
+<table id>
+<tr><td class="cells-store-details">Store name</td><td class="cells-store-details"><input type="text" name="store-name" class="input-cells-store-details" required></td></tr>
+<tr><td class="cells-store-details">Store Address</td><td class="cells-store-details"><input type="textarea" class="input-cells-store-details" name="store-address" required></td></tr>
+<tr><td class="cells-store-details">Contact numbers</td><td class="cells-store-details"><input type="text" class="input-cells-store-details" name="store-numbers" required></td></tr>
+<tr><td class="cells-store-details">About the store</td><td  class="cells-store-details"><input type="textarea" class="input-cells-store-details" name="store-about" required></td></tr>
+<tr><td class="cells-store-details">Products Range</td><td class="cells-store-details"><input type="textarea" class="input-cells-store-details" name="store-products" required></td></tr>
+</table>
+<input type="submit" class="btn btn-primary" id="submit-store-details">
+</form>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="col-sm-5">
+<div class="jumbotron" id="store-image_uploader">
+<div class="row instruction">Upload images here: </div>
+<div class="row">
+<input type="file" name="store-images">
+</div>
+<div class="row" id="preview-images"><div>
+</div>
+</div>
+</div>
+</body>
+<script>
+
+</script
+</html>
